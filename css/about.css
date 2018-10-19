@@ -1,0 +1,25 @@
+.about-me__container{
+    display:flex;
+    width:100%;
+    height:auto;
+   
+}
+.about-me__container__my-photo{
+    height: auto;
+    min-height:350px;
+    width: 40%;
+    background-image:url(/images/Germany.jpg);
+    background-size:100% 100%;
+    
+
+}
+.about-me__container__info-text{
+    order:-1;
+    height: auto;
+    min-height: 350px;
+    width: 60%; 
+    background-color: green;
+    font-size:18px;
+    text-align:justify;
+    padding:25px;
+}

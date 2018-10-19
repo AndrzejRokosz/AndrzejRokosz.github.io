@@ -1,0 +1,11 @@
+.techs__container{
+    display:flex; 
+    background-color:blue;
+    min-height:350px;
+    padding:25px;
+    text-align: justify;
+}
+.tech{
+   
+   height:auto;
+}
