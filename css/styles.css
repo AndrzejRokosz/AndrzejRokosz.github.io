@@ -1,0 +1,88 @@
+body{
+    margin:0;
+    padding:0;
+
+}
+
+.navigate__container{
+
+}
+.hero__container{
+    /* display:flex; */
+    width:100%;
+    height:100vh;
+    /* background-size:cover; */
+    background-image:url(/images/Germany.jpg);
+    background-size:100% 100%;
+    padding:15px;
+    justify-content: center;
+    align-items: center;
+}
+.about-me__container{
+
+}
+.techs__container{
+
+}
+
+
+.navigate__container{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+.navigate__container__list {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+	padding: 0;
+	margin: 0;
+}
+
+
+
+.navigate__container__list__menu-item {
+	flex-grow: 1;
+	background-color: red;
+}
+
+
+.navigate__container__list__menu-item__link {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    font-size: 18px;
+	padding: 10px;
+	color: white;
+
+}
+
+.navigate__container__list__menu-item__link:hover {
+    background-color: red;
+
+}
+
+
+
+.navigate__container__list__menu-item__link:visited {
+	background-color: red;
+	color: white;
+
+}
+
+@media only screen and (max-width: 576px) {
+	.navigate__container__list {
+		flex-direction: column;
+	}
+}
+
+
+/* hero */
+.section__hero {
+	margin-top: 55px;
+}
