@@ -1,44 +1,5 @@
 body,html{
     margin:25px 0 0 0;
     padding:0;
-}
-@media only screen and (max-width: 568px) {
-	.navigate__container__list {
-        flex-direction: column;
-
-        
-    }
-    .about-me__container__info-text{
-        order:0;
-    }
-    body,html{
-        margin-top:75px;
-    }
-    .techs__container{
-        flex-direction:column;
-       
-    }
-    .tech{
-        min-height: 200px;
-        height:auto;
-    }
-}
-@media only screen and (min-width: 569px) and (max-width: 768px)  {
-	.navigate__container__list {
-        flex-direction: column;   
-    }
-    .about-me__container__info-text{
-        order:0;
-    }
-    body,html{
-        margin-top:75px;
-    }
-    .techs__container{
-        flex-direction:column;
-       
-    }
-    .tech{
-        min-height: 200px;
-        height:auto;
-    }
+    background-color:#303952;
 }

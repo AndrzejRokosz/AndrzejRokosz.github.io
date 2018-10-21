@@ -1,25 +1,66 @@
 .about-me__container{
     display:flex;
     width:100%;
-    height:auto;
-   
+    height:auto;   
 }
 .about-me__container__my-photo{
+    display:flex;
     height: auto;
-    min-height:350px;
-    width: 40%;
-    background-image:url(/images/Germany.jpg);
-    background-size:100% 100%;
-    
-
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+    background-color:#303952;
+    padding:1px;
 }
-.about-me__container__info-text{
+.about-me__container__my-photo__center-box-frame{
+    background-image:url(/images/DSC_0124.jpg);
+    background-size:100% 100%;
+    width:100%;
+    min-height:390px; 
+    height:auto;  
+}
+.about-me__container__info-box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
     order:-1;
     height: auto;
+    width: 65%; 
+    background-color:#303952;
+    padding:1px;  
+}
+.about-me__container__info-box__text{
+    display:table;
+    height: auto;
     min-height: 350px;
-    width: 60%; 
-    background-color: green;
+    width:100%;
+    box-align:center;
+    padding:20px;
+    background-color:#95afc0; 
     font-size:18px;
-    text-align:justify;
-    padding:25px;
+    text-align:justify; 
+}
+.bubble{
+    display:table-cell;
+    vertical-align: middle;   
+}
+
+@media only screen and (max-width: 568px) {
+	.navigate__container__list {
+        flex-direction: column;    
+    }
+    .about-me__container__info-box{
+        order:0;
+        
+    } 
+    .about-me__container__info-box__text{
+        font-size:14px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+	
+    .about-me__container__info-box__text{   
+        font-size:32px;
+    } 
 }
