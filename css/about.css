@@ -9,15 +9,16 @@
     width: 45%;
     justify-content: center;
     align-items: center;
-    background-color:#303952;
+    background-color:#95afc0;
     padding:1px;
 }
 .about-me__container__my-photo__center-box-frame{
     background-image:url(/images/DSC_0124.jpg);
     background-size:100% 100%;
     width:100%;
-    min-height:390px; 
-    height:auto;  
+    min-height:400px; 
+    height:auto;
+   
 }
 .about-me__container__info-box{
     display:flex;
@@ -26,13 +27,13 @@
     order:-1;
     height: auto;
     width: 65%; 
-    background-color:#303952;
+    background-color:#95afc0;
     padding:1px;  
 }
 .about-me__container__info-box__text{
     display:table;
     height: auto;
-    min-height: 350px;
+    min-height: 300px;
     width:100%;
     box-align:center;
     padding:20px;
@@ -49,13 +50,28 @@
 	.navigate__container__list {
         flex-direction: column;    
     }
+    .about-me__container{
+        flex-direction:column;   
+    }
+    .about-me__container__my-photo{
+        width:100%;
+    }
     .about-me__container__info-box{
         order:0;
+        width:100%;
         
     } 
     .about-me__container__info-box__text{
-        font-size:14px;
+        font-size:18px;
     }
+    #section__about-me__dummy-marker{
+        top:280px;
+     }
+    #section__techs__dummy-marker{
+       
+        top:1000px;
+    }
+
 }
 
 @media only screen and (min-width: 1200px) {

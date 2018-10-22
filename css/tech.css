@@ -1,11 +1,10 @@
 .techs__wrapper{
     display:flex;
     width:100%;
-    background-color:#303952;
+    background-color:#95afc0;
     min-height:350px;
     padding:2px;
     text-align: justify;  
-
 }
 .techs__wrapper__box{
    width:auto;
@@ -24,13 +23,13 @@
     height:50px;
 }
 
-
-
 @media only screen and (max-width: 568px) {
-	
     body,html{
         margin-top:75px;
     }
+    #section__techs__dummy-marker{
+        top:1000px;
+    }  
     .techs__wrapper{
         flex-direction:column;   
     }
@@ -43,5 +42,8 @@
 	
     .techs__wrapper__box{   
         font-size:32px;
-    } 
+    }
+    #section__techs__dummy-marker{
+        top:800px;
+    }
 }

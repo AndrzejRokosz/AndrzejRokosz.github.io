@@ -1,5 +1,30 @@
 body,html{
+    position:relative;
     margin:25px 0 0 0;
     padding:0;
-    background-color:#303952;
+    background-color:#95afc0;
+    font-family:Merriweather;
+}
+#section__hero__dummy-marker{
+    position:absolute;
+    width:20px;
+    height:20px;
+    /* background-color:pink; */
+    top:-100px;
+}
+
+#section__about-me__dummy-marker{
+    position:absolute;
+    width:20px;
+    height:20px;
+    /* background-color: yellow; */
+    top:380px;
+
+}
+#section__techs__dummy-marker{
+    position:absolute;
+    width:20px;
+    height:20px;
+    /* background-color: green; */
+    top:760px;
 }
