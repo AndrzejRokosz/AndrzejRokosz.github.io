@@ -16,8 +16,9 @@
     background-image:url(/images/DSC_0124.jpg);
     background-size:100% 100%;
     width:100%;
-    min-height:390px; 
-    height:auto;  
+    min-height:400px; 
+    height:auto;
+   
 }
 .about-me__container__info-box{
     display:flex;
@@ -32,7 +33,7 @@
 .about-me__container__info-box__text{
     display:table;
     height: auto;
-    min-height: 350px;
+    min-height: 300px;
     width:100%;
     box-align:center;
     padding:20px;
@@ -49,6 +50,12 @@
 	.navigate__container__list {
         flex-direction: column;    
     }
+    .about-me__container{
+        flex-direction:column;   
+    }
+    .about-me__container__my-photo{
+        width:100%;
+    }
     .about-me__container__info-box{
         
         flex-direction: column;
@@ -59,8 +66,16 @@
         width:100%;
     }
     .about-me__container__info-box__text{
-        font-size:14px;
+        font-size:18px;
     }
+    #section__about-me__dummy-marker{
+        top:280px;
+     }
+    #section__techs__dummy-marker{
+       
+        top:1000px;
+    }
+
 }
 
 @media only screen and (min-width: 1200px) {

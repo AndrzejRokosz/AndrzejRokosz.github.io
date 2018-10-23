@@ -3,8 +3,7 @@
     height:50px;
 	left: 0;
 	top: 0;
-    width: 100%;
-    
+    width: 100%;   
 }
 .navigate__container__list {
     display: flex;
@@ -16,17 +15,17 @@
 .navigate__container__list__menu-item {
     flex-grow: 1;
     height:50px;
-	background-color: #303952;
+	background-color: #130f40;
 }
 .navigate__container__list__menu-item__link {
     display: block;
     height:50px;
     font-size: 28px;
-    color: #82589F;
+    color:#95afc0;
     line-height: 50px;
     text-decoration: none;
     text-align: center;   
 }
 .navigate__container__list__menu-item__link:hover {
-    background-color:#D6A2E8;
+    background-color:#30336b;
 }
