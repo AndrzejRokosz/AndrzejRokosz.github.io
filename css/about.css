@@ -15,7 +15,6 @@
 .about-me__container__my-photo__center-box-frame{
     background-image:url(/images/DSC_0124.jpg);
     background-size:100% 100%;
-    
     width:100%;
     min-height:390px; 
     height:auto;  
@@ -51,9 +50,14 @@
         flex-direction: column;    
     }
     .about-me__container__info-box{
-        order:0;
         
+        flex-direction: column;
+        order:0;
+        width:100%;
     } 
+    .about-me__container__my-photo{
+        width:100%;
+    }
     .about-me__container__info-box__text{
         font-size:14px;
     }
