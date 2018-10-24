@@ -15,8 +15,8 @@
 .about-me__container__my-photo__center-box-frame{
     background-image:url(/images/DSC_0124.jpg);
     background-size:100% 100%;
-    width:100%;
-    min-height:400px; 
+    width:260px;
+    min-height:300px; 
     height:auto;
    
 }
@@ -43,7 +43,8 @@
 }
 .bubble{
     display:table-cell;
-    vertical-align: middle;   
+    vertical-align: middle;
+    padding:15px;   
 }
 
 @media only screen and (max-width: 568px) {
@@ -82,5 +83,6 @@
 	
     .about-me__container__info-box__text{   
         font-size:32px;
+        
     } 
 }
