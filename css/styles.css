@@ -4,7 +4,7 @@ body,html{
     padding:0;
     background-color:#95afc0;
     overflow-x: hidden;
-    font-family:Merriweather;
+    font-family:sans-serif;
 }
 #section__hero__dummy-marker{
     position:absolute;
