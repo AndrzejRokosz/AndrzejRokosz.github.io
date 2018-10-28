@@ -1,9 +1,9 @@
-.hero__wrapper{
+.hero{
     width:100%;
     padding:2px;
     min-height:400px;     
 }
-.hero__wrapper__container{
+.hero-container{
     display:flex;
     width:100%;
     min-height:400px;
@@ -12,21 +12,21 @@
     justify-content: center;
     align-items: center;  
 }
-.hero__wrapper__container__box{
+.hero-container__box{
     color:#130f40;
     text-align: center;
     font-weight: bold;   
 }
-.hero__wrapper__container__box__text-1{
+.hero-container__box-header{
     font-size: 34px;
     text-transform: uppercase;
 }
-.hero__wrapper__box__features-desc{
+.hero-container__box-info{
     font-size: 20px;   
 } 
 
 @media only screen and (max-width: 568px) {
-    #section__hero__dummy-marker{
+    #section-hero__dummy-marker{
         top:-150px;
     }
 }

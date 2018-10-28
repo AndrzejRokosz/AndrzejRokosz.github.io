@@ -1,23 +1,24 @@
-.navigate__container{
+.navigate{
     position: fixed;
     height:50px;
 	left: 0;
 	top: 0;
     width: 100%;   
 }
-.navigate__container__list {
+.navigate-container {
     display: flex;
     width: 100%;
     list-style-type: none; 
     padding: 0;
     margin: 0;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
 }
-.navigate__container__list__menu-item {
+.navigate-container__menu-item {
     flex-grow: 1;
     height:50px;
 	background-color: #130f40;
 }
-.navigate__container__list__menu-item__link {
+.navigate-container__link {
     display: block;
     height:50px;
     font-size: 28px;
@@ -26,6 +27,6 @@
     text-decoration: none;
     text-align: center;   
 }
-.navigate__container__list__menu-item__link:hover {
+.navigate-container__link:hover {
     background-color:#30336b;
 }
